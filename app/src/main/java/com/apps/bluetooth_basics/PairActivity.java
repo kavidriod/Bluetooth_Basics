@@ -72,7 +72,7 @@ public class PairActivity extends AppCompatActivity {
 
             if (convertView == null){
                 convertView = layoutInflater.inflate(R.layout.paired_items,null);
-
+                viewHolder = new ViewHolder();
                 viewHolder.deviceName = (TextView) convertView.findViewById(R.id.titleTextView);
                 viewHolder.macAddress = (TextView) convertView.findViewById(R.id.macAddress);
 

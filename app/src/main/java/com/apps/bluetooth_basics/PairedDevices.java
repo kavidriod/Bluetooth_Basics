@@ -1,10 +1,12 @@
 package com.apps.bluetooth_basics;
 
+import java.io.Serializable;
+
 /**
  * Created by Kavitha on 6/21/2017.
  */
 
-public class PairedDevices {
+public class PairedDevices implements Serializable {
 
 
     public PairedDevices(String name, String macAddress) {
